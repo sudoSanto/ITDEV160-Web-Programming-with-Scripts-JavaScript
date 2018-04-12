@@ -1,1 +1,3 @@
-ITDEV160-Web-Programming-With-Scripts-JavaScript
+ITDEV160 Web Programming with Scripts JavaScript
+------
+### MATC Spring 2018
