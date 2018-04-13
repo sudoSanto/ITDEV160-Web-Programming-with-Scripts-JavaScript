@@ -1,0 +1,97 @@
+body { font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+    color: black;
+    background-color: white; }
+
+a { font-weight: bold;
+    text-decoration: none; }
+
+a:link { color: blue;
+    text-decoration: none; }
+
+a:visited { color: purple;
+    text-decoration: none; }
+
+a:hover, a:focus { color: red;
+    text-decoration: none; }
+
+ul { }
+
+h1 { font-family: 'Open Sans'; }
+
+p { }
+
+header, nav, main, section, article, aside, footer { background-color: white; }
+
+header {
+		padding-bottom: 1em;
+		padding-top: 1em; }
+
+header h1, header p { border: 0px; margin: 0px; }
+
+main {
+		padding-bottom: 1em; }
+
+table, th, td { border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 2em;
+    margin-top: 2em; }
+
+#navbar{
+ 		width: 100%; }
+
+#navbar ul li {
+		list-style-type: none; }
+
+#navbar ul {
+		padding-left: 3px;
+		margin-left: 0; }
+
+#navbar li {
+		display: inline;
+		background-color: #c8c8c8;
+	 	padding: .5em	;
+		border: 1px solid; }
+
+#product {
+	 	padding-left: 5em;
+		overflow: auto; }
+
+#product-img {
+		margin-left: 0;
+		padding-right: .5em;
+		float: left; }
+
+#product-img figcaption{ text-align: center; }
+
+#product-desc {
+		margin-top: 0;
+		padding-left: 2em;
+		width: 50%; }
+
+#product-desc p {
+		width: 500px;
+		font-style: italic; }
+
+#product-img img {
+		width: 100px; }
+
+#reviews {
+		padding-left: 2em; }
+
+#review-box {
+		padding-left: 2em;
+		padding-right: 4em; }
+
+#review-box img {
+		width: .75em; }
+
+.slogan{ font-style: italic; }
+
+.price{ font-style: normal; font-weight: bold;}
+
+.pad{ padding: .5em; }
+
+.wrapper{ text-align: center; }
+
+.clear { clear: both; }

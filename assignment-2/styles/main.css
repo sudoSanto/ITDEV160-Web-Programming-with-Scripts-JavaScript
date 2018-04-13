@@ -1,0 +1,41 @@
+body { font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+    color: black;
+    background-color: white; }
+
+a { font-weight: bold;
+    text-decoration: none; }
+
+a:link { color: blue;
+    text-decoration: none; }
+
+a:visited { color: purple;
+    text-decoration: none; }
+
+a:hover, a:focus { color: red;
+    text-decoration: none; }
+
+ul { }
+
+h1 { }
+
+p { }
+
+header, nav, main, section, article, aside, footer { background-color: white; }
+
+table, th, td { border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 2em;
+    margin-top: 2em; }
+
+thead, tfoot { background-color: cyan; }
+
+tbody { background-color: ghostwhite; }
+
+.cspan { background-color: red; }
+
+.rspan { background-color: green; }
+
+.wrapper{ text-align: center; }
+
+.clear { clear: both; }

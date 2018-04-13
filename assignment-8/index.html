@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simple Blog | Matthew Dal Santo</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Assignment 8">
+        <meta name="keywords" content="Matthew Dal Santo, Matthew DalSanto, Dal Santo, DalSanto, Matthew, Matt, ITDEV160, Assignment 8">
+        <meta name="author" content="Matthew Dal Santo">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    </head>
+  <body>
+    <header>
+      <span id="header-title">My Sweet Blog</span>
+      <span id = "header-menu">
+        <input type="checkbox" id="show-tooltip" value="">
+        <span>Show Tooltip</span>
+        <button type="button" id="new-button">New</button>
+      </span>
+    </header>
+
+    <main>
+      <section id="display-content">
+      </section>
+
+      <div class="clear"></div>
+      <hr>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../assignment-1/index.html">Assignment 1 | Basic HTML</a></li>
+        <li><a href="../assignment-2/index.html">Assignment 2 | Tables</a>
+          <ul>
+            <li><a href="#simple-table" alt="Simple Table">Assignment 2 # Simple Table</a></li>
+            <li><a href="#complex-table" alt="Complex Table">Assignment 2 # Complex Table</a></li>
+          </ul>
+        </li>
+        <li><a href="../assignment-3/index.html">Assignment 3 | Product Reviews</a></li>
+        <li><a href="../assignment-4/index.html">Assignment 4 | Basic JavaScript</a></li>
+        <li><a href="../assignment-5/index.html">Assignment 5 | Simple Copy of The Best Atom Packages</a></li>
+        <li><a href="../assignment-6/index.html">Assignment 6 | Java Chat</a></li>
+        <li><a href="../assignment-7/index.html">Assignment 7 | To Do List</a></li>
+      </ul>
+    </main>
+
+    <footer id="content-footer">
+      <ul class="footer">
+        <li>
+          screenX<span id="screenX"></span>
+        </li>
+        <li>
+          screenY<span id="screenY"></span>
+        </li>
+        |
+        <li>
+          pageX<span id="pageX"></span>
+        </li>
+        <li>
+          pageY<span id="pageY"></span>
+        </li>
+        |
+        <li>
+          clientX<span id="clientX"></span>
+        </li>
+        <li>
+          clientY<span id="clientY"></span>
+        </li>
+      </ul>
+    </footer>
+
+    <div class="modal" id="modal-dialog">
+      <div id="modal-content">
+
+        <section>
+          <h4>Title</h4>
+          <input type="text" id="edit-title-text">
+          <span id="edit-title-message"></span>
+        </section>
+
+        <section>
+          <h4>Content</h4>
+          <textarea id="edit-content-text" rows="8" cols="80"></textarea>
+        </section>
+
+        <footer>
+          <button type="button" id="cancel-button">Cancel</button>
+          <button type="button" id="save-button">Save</button>
+        </footer>
+      </div>
+    </div>
+
+    <div id="modal-backdrop"></div>
+
+    <div id="tooltip">
+      tooltip
+    </div>
+
+    <script src="js/scripts.js" charset="utf-8"></script>
+  </body>
+</html>

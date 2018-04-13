@@ -1,0 +1,102 @@
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	font-family: 'Open Sans', sans-serif;
+	color: #555;
+	margin: 0;
+}
+
+header {
+	display: flex;
+	padding: 5px;
+	color: #efefef;
+	background-color: #2d2d2d;
+	border: solid 1px #000;
+}
+
+header #header-menu {
+	flex-grow: 1;
+	text-align: right;
+	color: #777;
+	font-size: smaller;
+}
+
+main {
+	flex: 1;
+}
+
+main #display-content {
+	padding: 20px;
+}
+
+footer#content-footer {
+	min-height: 80px;
+	background-color: #eee;
+	border-top: solid 1px #555;
+}
+
+ul.footer {
+	text-align: center;
+	list-style: none;
+}
+
+ul.footer li {
+	display: inline-block;
+}
+
+ul.footer span {
+	font-weight: bold;
+	color: brown;
+}
+
+/* Modal styles */
+#modal-backdrop {
+	display: none;
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0,0,0,0.75);
+}
+
+#modal-backdrop.visible {
+	display: block;
+}
+
+.modal {
+	display: none;
+	position: absolute;
+	padding: 10px;
+	border: solid 1px #555;
+	background-color: #fff;
+	z-index: 99999;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.modal.visible {
+	display: block;
+}
+
+#modal-content {
+}
+
+#edit-content-text {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/* Tooltip styles */
+#tooltip {
+	display: none;
+	position: absolute;
+}
+
+#tooltip.visible {
+	display: block;
+}
+
+.wrapper{ text-align: center; }
+
+.clear { clear: both; }
