@@ -7,9 +7,54 @@ This course teaches students how to build websites that interact with the user b
 Assignments
 ------
 
-[<img src="https://github.com/favicon.ico" alt="Assignment 1" width="18" height="18">](https://github.com/sudoSanto/ITDEV150-Database-Management-with-SQL/blob/master/Assignment1.txt "Assignment 1")&nbsp;
-**Placeholder**\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Placeholder*
+[<img src="https://github.com/sudoSanto/sudoSantoMedia/blob/master/HTMLIcon.png" alt="Assignment 1" width="30" height="30">](https://htmlpreview.github.io/?https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/blob/master/assignment-1/index.html "Assignment 1")&nbsp;
+[<img src="https://github.com/favicon.ico" alt="Assignment 1" width="18" height="18">](https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/tree/master/assignment-1 "Assignment 1")&nbsp;
+**Assignment 1**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Basic HTML*
+
+[<img src="https://github.com/sudoSanto/sudoSantoMedia/blob/master/HTMLIcon.png" alt="Assignment 2" width="30" height="30">](https://htmlpreview.github.io/?https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/blob/master/assignment-2/index.html "Assignment 2")&nbsp;
+[<img src="https://github.com/favicon.ico" alt="Assignment 2" width="18" height="18">](https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/tree/master/assignment-2 "Assignment 2")&nbsp;
+**Assignment 2**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Basic HTML (Cont'd) & Basic CSS*
+
+[<img src="https://github.com/sudoSanto/sudoSantoMedia/blob/master/HTMLIcon.png" alt="Assignment 3" width="30" height="30">](https://htmlpreview.github.io/?https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/blob/master/assignment-3/index.html "Assignment 3")&nbsp;
+[<img src="https://github.com/favicon.ico" alt="Assignment 3" width="18" height="18">](https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/tree/master/assignment-3 "Assignment 3")&nbsp;
+**Assignment 3**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Practical Styling with CSS*
+
+[<img src="https://github.com/sudoSanto/sudoSantoMedia/blob/master/HTMLIcon.png" alt="Assignment 4" width="30" height="30">](https://htmlpreview.github.io/?https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/blob/master/assignment-4/index.html "Assignment 4")&nbsp;
+[<img src="https://github.com/favicon.ico" alt="Assignment 4" width="18" height="18">](https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/tree/master/assignment-4 "Assignment 4")&nbsp;
+**Assignment 4**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Basic JavaScript*
+
+[<img src="https://github.com/sudoSanto/sudoSantoMedia/blob/master/HTMLIcon.png" alt="Assignment 5" width="30" height="30">](https://htmlpreview.github.io/?https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/blob/master/assignment-5/index.html "Assignment 5")&nbsp;
+[<img src="https://github.com/favicon.ico" alt="Assignment 5" width="18" height="18">](https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/tree/master/assignment-5 "Assignment 5")&nbsp;
+**Assignment 5**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*JavaScript and DOM Elements*
+
+[<img src="https://github.com/sudoSanto/sudoSantoMedia/blob/master/HTMLIcon.png" alt="Assignment 6" width="30" height="30">](https://htmlpreview.github.io/?https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/blob/master/assignment-6/index.html "Assignment 6")&nbsp;
+[<img src="https://github.com/favicon.ico" alt="Assignment 6" width="18" height="18">](https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/tree/master/assignment-6 "Assignment 6")&nbsp;
+**Assignment 6**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Basic JavaScript Chat App*
+
+[<img src="https://github.com/sudoSanto/sudoSantoMedia/blob/master/HTMLIcon.png" alt="Assignment 7" width="30" height="30">](https://htmlpreview.github.io/?https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/blob/master/assignment-7/index.html "Assignment 7")&nbsp;
+[<img src="https://github.com/favicon.ico" alt="Assignment 7" width="18" height="18">](https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/tree/master/assignment-7 "Assignment 7")&nbsp;
+**Assignment 7**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*JavaScript ToDo App*
+
+[<img src="https://github.com/sudoSanto/sudoSantoMedia/blob/master/HTMLIcon.png" alt="Assignment 8" width="30" height="30">](https://htmlpreview.github.io/?https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/blob/master/assignment-8/index.html "Assignment 8")&nbsp;
+[<img src="https://github.com/favicon.ico" alt="Assignment 8" width="18" height="18">](https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/tree/master/assignment-8 "Assignment 8")&nbsp;
+**Assignment 8**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*JavaScript Blog*
+
+[<img src="https://github.com/sudoSanto/sudoSantoMedia/blob/master/HTMLIcon.png" alt="Assignment 8b" width="30" height="30">](https://htmlpreview.github.io/?https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/blob/master/assignment-8b/index.html "Assignment 8b")&nbsp;
+[<img src="https://github.com/favicon.ico" alt="Assignment 8b" width="18" height="18">](https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/tree/master/assignment-8b "Assignment 8b")&nbsp;
+**Assignment 8b**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*JavaScript Quotes*
+
+[<img src="https://github.com/favicon.ico" alt="Assignment 9" width="18" height="18">](https://github.com/sudoSanto/ITDEV160-Web-Programming-with-Scripts-JavaScript/tree/master/assignment-9 "Assignment 9")&nbsp;
+**Assignment 9**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Introduction to Firebase, Node.js & Passing Data to a NoSQL Database*
 
 <br/>
 
