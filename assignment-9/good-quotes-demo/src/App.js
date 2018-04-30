@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Link, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import firebase from 'firebase';
+import Header from './components/common/Header'
+import Quote from './components/quote/Quote';
+import AddQuoteForm from './components/common/AddQuoteForm'
+import About from './components/about/About'
 
 // Initialize Firebase
 var config = {
@@ -13,15 +18,11 @@ var config = {
   messagingSenderId: "700237541412"
 };
 
-var firebaseApp = firebase.initializeApp(config);
+let firebaseApp = firebase.initializeApp(config);
 
 class App extends Component {
   constructor(props) {
       super(props);
-
-      // Create input references
-      this.textInput = React.createRef();
-      this.authorInput = React.createRef();
 
       // Set up React state
       this.state = {
@@ -49,37 +50,30 @@ class App extends Component {
     })
   }
 
-  addQuote(event) {
-    event.preventDefault();
-
-    // Create new quote object from input values
-    let quote = {
-      author: this.authorInput.current.value,
-      text: this.textInput.current.value
-    }
-
-    // Get db reference, add new quote, then reset textboxes
+  addQuote(quote) {
     let db = firebaseApp.database().ref('quotes');
     db.push(quote);
-
-    this.authorInput.current.value = '';
-    this.textInput.current.value = '';
   }
 
   render() {
+    const { quotes } = this.state;
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <form onSubmit={this.addQuote.bind(this)}>
-          <textarea rows="5" cols="50" ref={ this.textInput }></textarea>
-          <input type="text" ref={ this.authorInput }></input>
-          <input type="submit" />
-        </form>
+      <BrowserRouter>
+        <div className="App">
+          <Header />
+          <AddQuoteForm addQuote={this.addQuote} />
+          <main>
 
-      </div>
+            <Route exaxt={true} path="/" render={() => (
+              quotes.map(quote =>
+                <Quote quote={quote} key={quote.id} />
+              )
+            )} />
+
+            <Route path="/about" component={About} />
+          </main>
+        </div>
+      </BrowserRouter>
     );
   }
 }
