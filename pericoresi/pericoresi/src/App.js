@@ -10,13 +10,13 @@ import About from './components/about/About';
 
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyBi9azdP-7CvbbhKNrEA98e8e1mwpCV_rI",
-    authDomain: "pericoresi.firebaseapp.com",
-    databaseURL: "https://pericoresi.firebaseio.com",
-    projectId: "pericoresi",
-    storageBucket: "pericoresi.appspot.com",
-    messagingSenderId: "910122477520"
-  };
+  apiKey: config.apiKey,
+  authDomain: config.authDomain,
+  databaseURL: config.databaseURL,
+  projectId: config.projectId,
+  storageBucket: config.storageBucket,
+  messagingSenderId: config.messagingSenderId
+};
 
 let pericoresiApp = firebase.initializeApp(config);
 
