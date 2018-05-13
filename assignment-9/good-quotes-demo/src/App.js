@@ -3,10 +3,10 @@ import { BrowserRouter, Link, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import firebase from 'firebase';
-import Header from './components/common/Header'
+import Header from './components/common/Header';
 import Quote from './components/quote/Quote';
-import AddQuoteForm from './components/common/AddQuoteForm'
-import About from './components/about/About'
+import AddQuoteForm from './components/common/AddQuoteForm';
+import About from './components/about/About';
 
 // Initialize Firebase
 var config = {
