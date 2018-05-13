@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter, Link, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
-import config from './config'
 import firebase from 'firebase';
 import Header from './components/common/Header';
 import Quote from './components/quote/Quote';
@@ -10,15 +9,7 @@ import AddQuoteForm from './components/common/AddQuoteForm';
 import About from './components/about/About';
 
 // Initialize Firebase
-var config = {
-  apiKey: config.apiKey,
-  authDomain: config.authDomain,
-  databaseURL: config.databaseURL,
-  projectId: config.projectId,
-  storageBucket: config.storageBucket,
-  messagingSenderId: config.messagingSenderId
-};
-
+var config = require('./config.json');
 let firebaseApp = firebase.initializeApp(config);
 
 class App extends Component {

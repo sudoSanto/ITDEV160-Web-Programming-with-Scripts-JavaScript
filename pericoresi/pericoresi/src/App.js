@@ -9,15 +9,7 @@ import AddMessageForm from './components/common/AddMessageForm';
 import About from './components/about/About';
 
 // Initialize Firebase
-var config = {
-  apiKey: config.apiKey,
-  authDomain: config.authDomain,
-  databaseURL: config.databaseURL,
-  projectId: config.projectId,
-  storageBucket: config.storageBucket,
-  messagingSenderId: config.messagingSenderId
-};
-
+var config = require('./config.json');
 let pericoresiApp = firebase.initializeApp(config);
 
 class App extends Component {
