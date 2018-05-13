@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Link, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
+import config from './config'
 import firebase from 'firebase';
 import Header from './components/common/Header';
 import Quote from './components/quote/Quote';
@@ -10,12 +11,12 @@ import About from './components/about/About';
 
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyBEhi8HDFBYvNGtm6aBw-P8LyDMKm6STc0",
-  authDomain: "goodquotesdemo-a8848.firebaseapp.com",
-  databaseURL: "https://goodquotesdemo-a8848.firebaseio.com",
-  projectId: "goodquotesdemo-a8848",
-  storageBucket: "goodquotesdemo-a8848.appspot.com",
-  messagingSenderId: "700237541412"
+  apiKey: config.apiKey,
+  authDomain: config.authDomain,
+  databaseURL: config.databaseURL,
+  projectId: config.projectId,
+  storageBucket: config.storageBucket,
+  messagingSenderId: config.messagingSenderId
 };
 
 let firebaseApp = firebase.initializeApp(config);
