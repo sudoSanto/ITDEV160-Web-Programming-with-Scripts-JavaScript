@@ -1,37 +1,66 @@
 import React, { Component, PropTypes } from 'react';
 
 class AddMessageForm extends Component {
+
   constructor(props) {
     super(props)
 
     // Create input references
-    this.userInput = React.createRef();
+    this.username = React.createRef();
+    this.recUser = React.createRef();
     this.textInput = React.createRef();
+  }
+
+
+
+  componentDidUpdate() {
+    let data = this.props.getCurrentUser();
+    this.username.current.value = data.displayName;
   }
 
   addMessage(event) {
     event.preventDefault();
-
-    // Create new quote object from input values
+    let data = this.props.getCurrentUser();
     let message = {
-      user: this.userInput.current.value,
-      text: this.textInput.current.value
+      sentUser: data.displayName,
+      //recUser: this.recUser,
+      text: this.textInput.current.value,
+      imageURL: data.photoURL
     }
 
+    console.log(message);
     this.props.addMessage(message);
 
-    this.userInput.current.value = '';
     this.textInput.current.value = '';
+  }
+
+  changeUsername(event) {
+    event.preventDefault();
+    // let user = this.props.getCurrentUser();
+    // console.log(data.displayName);
+    this.props.changeUsername(this.username.current.value);
+    let user = this.props.getCurrentUser();
+    console.log(user.displayName);
+    this.username.current.value = user.displayName;
   }
 
   render() {
     return(
-      <form onSubmit={this.addMessage.bind(this)}>
-        <textarea rows="5" cols="50" ref={ this.textInput }></textarea>
+      <div>
+        <form onSubmit={this.changeUsername.bind(this)}>
+          Change Username:
+          <input type="text" ref={ this.username }></input>
+          <input type="submit" />
+        </form>
+
         <br />
-        <input type="text" ref={ this.userInput }></input>
-        <input type="submit" />
-      </form>
+
+        <form onSubmit={this.addMessage.bind(this)}>
+          Enter text:
+          <input className="textBar" type="text" ref={ this.textInput }></input>
+          <input type="submit" />
+        </form>
+      </div>
     )
   }
 }

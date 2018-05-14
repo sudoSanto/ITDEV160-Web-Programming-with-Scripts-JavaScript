@@ -1,28 +1,135 @@
+body { font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 100%;
+    color: black;
+		display: block;
+    background-color: grey;
+}
+
+h1 { text-align: center;
+    font-size: 150%;
+}
+
+a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: black;
+    text-decoration: none;
+}
+
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.wrapper{
+    text-align: center;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.title-text{
+
 }
 
-.App-title {
-  font-size: 1.5em;
+.header-inner{
+    margin: .5%;
+    margin-top: 110px;
 }
 
-.App-intro {
-  font-size: large;
+.nav{
+    background-color: #264422;
+    padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.nav-container:hover {
+    background-color: ghostwhite;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.message-container {
+  margin: auto;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	height: 20em;
+	width: 60%;
+	overflow-y: scroll;
+	overflow-wrap: break-word;
+  background-color: lightgrey;
+}
+
+.message-container-bottom {
+  clear: both;
+}
+
+.textBar {
+  width: 80%;
+}
+
+.out-message {
+	float: right;
+	margin: .25em;
+	padding: .5em;
+	border-radius: 15px;
+	text-align: right;
+	color: white;
+	background-color: darkgrey;
+	clear: both;
+}
+
+.in-message {
+	float: left;
+	margin: .25em;
+	padding: .5em;
+	border-radius: 15px;
+	text-align: left;
+	color: black;
+	background-color: lightblue;
+	clear: both;
+}
+
+@media (min-width: 10px){
+.header-inner{
+    margin: .5%;
+}
+.nav-container {
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    /* above for multiple browsers */
+    transition:.5s;
+    padding: .25em;
+    margin: .25em;
+    width: 70%;
+    text-align: center;
+    background-color: ghostwhite;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    display: inline-block;
+}
+}
+
+@media (min-width: 650px){
+.header-inner{
+    margin: .5%;
+}
+.nav-container {
+    padding: .5em;
+    margin: .5%;
+    width: 15%;
+    vertical-align: top;
+}
 }

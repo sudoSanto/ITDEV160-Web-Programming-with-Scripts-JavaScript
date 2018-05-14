@@ -1,18 +1,24 @@
 import React, { PropTypes } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../logo.svg';
 
 const Header = () => {
   return (
-  <header className="App-header">
-    <img src={logo} className="App-logo" alt="logo" />
-    <h1 className="App-title">Welcome to React</h1>
-    <nav>
-      <Link to="/">Home</Link>
-      {' | '}
-      <Link to="/about">About</Link>
-    </nav>
-  </header>
+    <header>
+      <h1>Pericoresi</h1>
+      <div className="header-inner">
+          <div className="wrapper">
+          <div className="nav-container">
+              <Link to="/">Home</Link>
+          </div>
+          <div className="nav-container">
+              <Link to="/userinfo">User Info</Link>
+          </div>
+          <div className="nav-container">
+              <Link to="/login">Login</Link>
+          </div>
+          </div>
+      </div>
+    </header>
 )};
 
 export default Header;
